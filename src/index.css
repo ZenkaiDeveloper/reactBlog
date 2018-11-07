@@ -19,3 +19,23 @@ code {
   margin: 1rem;
   display:block;
 }
+
+.red{
+  color:red;
+}
+
+.red-border{
+  border:2px solid red;
+}
+
+.delete{
+  background-color: red;
+  float: right;
+  margin-right: 2rem;
+}
+
+.cancel-btn{
+  text-decoration: none;
+  background-color: red;
+  color:#f4f4f4;
+}

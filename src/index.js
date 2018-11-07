@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Switch } from  'react-router-dom';
 import PostIndex from './components/post_index';
 import promise from 'redux-promise'
 import NewPost from './components/new_post'
+import PostsShow from './components/posts_show'
 
 
 
@@ -21,8 +22,9 @@ ReactDOM.render(
       <div>
         <Switch>
           <Route path="/posts/new" component={NewPost} />
+          <Route path="/posts/:id" component={PostsShow} />
           <Route path="/" component={PostIndex} />
-        </Switch>        
+        </Switch>
       </div>
     </BrowserRouter>
   </Provider>
